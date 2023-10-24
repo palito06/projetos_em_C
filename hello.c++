@@ -16,7 +16,7 @@ int main(){
 
     for (i = 0 ; i < 4 ; i++){
 
-        cout <<" digite o "<< i+1 <<"numero: ";
+        cout << nome <<" digite o "<< i+1 <<" numero: ";
         cin >> num[i];
 
     }
@@ -25,5 +25,5 @@ int main(){
         soma += num[i];
     }
     
-    cout << " a soma desses valores: " << soma;
+    cout << nome << " a soma desses valores: " << soma;
 }
